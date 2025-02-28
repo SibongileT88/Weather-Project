@@ -11,6 +11,7 @@ body {
   max-width: 600px;
   border-radius: 10px;
 }
+
 a {
   color: blueviolet;
 }
@@ -37,6 +38,46 @@ header {
   padding: 15px 30px;
   color: #fff;
   margin-left: 6px;
+}
+
+main {
+  padding: 30px 0;
+}
+
+.weather-app-flex {
+  display: flex;
+  justify-content: space-between;
+}
+.weather-city-input {
+  font-size: 38px;
+  margin: 0;
+  line-height: 48px;
+}
+.weather-details {
+  font-size: 16px;
+  line-height: 24px;
+  color: rgba(39, 33, 66, 0.4);
+}
+
+.weather-details strong {
+  color: red;
+}
+
+.weather-temp-container {
+  display: flex;
+}
+.weather-temp-icon {
+  font-size: 44px;
+  margin-top: 22px;
+}
+.weather-temp-value {
+  font-size: 88px;
+  font-weight: bold;
+  margin-left: 10px;
+}
+.weather-temp-unit {
+  margin-top: 16px;
+  font-size: 28px;
 }
 
 footer {
