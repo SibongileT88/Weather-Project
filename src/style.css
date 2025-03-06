@@ -60,7 +60,7 @@ main {
 }
 
 .weather-details strong {
-  color: red;
+  color: #f70776;
 }
 
 .weather-temp-container {
